@@ -1,0 +1,48 @@
+Cables - Copper, fiber
+
+Crosstalk - 
+
+Networking devices
+——
+Hub - layer 1 device
+- Collision domain 
+Switch - layer 2
+- Inspect the data, reduce collision domain
+
+Both are used on single n/w
+
+Router - layer 3
+Used on independent n/w’s, used in LAN & WANs
+Routing table - to find optimal path
+
+Physical layer
+———————
+
+Ethernet
+—
+CSMA/CD - ensure communication channels are clear, free to send data
+
+MAC address -48 bit number
+—
+Two sections - OUI, 3 octets
+Vendor assigned
+
+Datalink layer
+——————
+
+Unicast, multicast, broadcast
+Ethernet frame
+
+Network layer
+———————
+
+Static IP addressing & DHCP
+
+IP datagram
+TTL field - avoid endless loop
+
+IP address - Network IP+Host id
+
+IP address classes 
+
+ARP - to find the hardware address
